@@ -1,21 +1,23 @@
 body {
     background-color: rgb(0, 0, 0);
-    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 2%;
 }
 
-.container {
+header {
     display: flex;
-    width: 100%;
     justify-content: space-between;
-    
+    height: 30vh;
 }
 
 #title {
+    display: flex;
+    flex-shrink: 2;
     height: 150px;
     background-color: rgb(17, 16, 16);
+    align-self: center;
+
 }
 
 #portal {
@@ -36,11 +38,12 @@ body {
     
 }
 
-.container-footer {
+.portal-left, .portal-right {
     display: flex;
-    width: 100%;
+    flex-direction: column;
     justify-content: space-between;
-    margin-top: auto;
-    margin-bottom: 5%;
+    
+    
+   /* margin-bottom: 5%;*/
 }
 
