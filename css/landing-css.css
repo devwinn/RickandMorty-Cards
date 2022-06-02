@@ -3,20 +3,27 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2%;
+    border: 5px solid rgb(69, 193, 242);
+    height: 100%;
+    border-radius: 5%;
+    margin: 2%;
+    box-shadow: 0px 8px 8px 8px rgba(71, 206, 240, 0.887);
 }
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: 30vh;
+    margin-bottom: 4%;
 }
 
 #title {
-    display: flex;
-    flex-shrink: 2;
     height: 150px;
     background-color: rgb(17, 16, 16);
     align-self: center;
+    border-radius: 50%;
+    box-shadow: 0px 8px 16px 0px rgba(71, 206, 240, 0.887);
 
 }
 
@@ -27,6 +34,8 @@ header {
     animation: spinit 10s infinite;
     animation-timing-function: linear;
     height: 10vh;
+    border-radius: 80%;
+
 }
 
 @keyframes spinit {
@@ -47,3 +56,70 @@ header {
    /* margin-bottom: 5%;*/
 }
 
+.dropdown{
+    display: inline-block;
+    position:relative;
+    font-family: 'Amatic SC', cursive; 
+    font-size: 35px;
+    color:aliceblue;
+    align-self: center;
+    box-shadow: 0px 8px 16px 0px rgba(71, 206, 240, 0.887);
+    padding: 20px;
+    border-radius: 25%;
+    margin-bottom: 5%;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    border-radius: 25%;
+    
+    }
+
+    .dropdown:hover 
+    .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        font-family: 'Amatic SC', cursive; 
+        font-size: x-large;
+        color:aliceblue;        
+        padding: 20px;
+        text-decoration: none;
+    }
+
+    .dropdown-content 
+    a:hover {
+        color: #FFFFFF;
+        background-color: #36cee5;
+    }
+
+    #cards {
+        margin: 3%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-family: 'Amatic SC', cursive; 
+        font-size: x-large;
+        gap: 5px;
+    }
+
+    .character {
+        width: fit-content;
+        background-color: aliceblue;
+        border:solid 4px #36cee5;
+        border-radius: 5%;
+        margin-bottom: 5%;
+    }
+
+
+    table {
+        background-color: #36cee5;
+        border: 5px solid aliceblue;
+        width: 100%;
+        border-radius: 10%;
+    }
