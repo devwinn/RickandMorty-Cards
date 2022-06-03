@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
-
+    <script defer src="../js/landing-js.js"></script>
 </head>
 <body>
     <header>
@@ -40,6 +40,34 @@
             <a href="">Gallery</a>
             <a href="">About Us</a>
         </div>  
+    </div>
+
+
+    <div class="create">
+        <button id="createbutton">Create A Character</button>
+        <div id="createForm">
+            <form>
+                <label for="fname">Full Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="dimension">Dimension:</label><br>
+                <input type="text" id="dimension" name="dimension"><br>
+                <p>Please select your favorite character:</p>
+                <input type="radio" id="rickpic" name="charPic" value="rick">
+                <label for="rickpic">Rick</label>
+                <input type="radio" id="mortypic" name="charPic" value="morty">
+                <label for="mortypic">Morty</label>
+                <input type="radio" id="summerpic" name="charPic" value="summer">
+                <label for="summerpic">Summer</label><br>
+                <input type="radio" id="bethpic" name="charPic" value="beth">
+                <label for="bethpic">Beth</label>
+                <input type="radio" id="jerrypic" name="charPic" value="jerry">
+                <label for="jerrypic">Jerry</label>
+                <input type="radio" id="terrypic" name="charPic" value="scaryterry">
+                <label for="terrypic">Scary Terry</label>
+                <br>
+                <button type="button" id="formSubmit" onclick = "run_test()">Submit</button>
+            </form>
+        </div>
     </div>
 
 

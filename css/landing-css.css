@@ -123,3 +123,26 @@ header {
         width: 100%;
         border-radius: 10%;
     }
+
+    .create {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #createbutton {
+        
+        font-family: 'Amatic SC', cursive; 
+        font-size: x-large;
+        color:aliceblue;
+        background-color: black;
+    }
+
+    #createForm {
+        display:none;
+        font-family: 'Amatic SC', cursive; 
+        font-size: x-large;
+        color:aliceblue;
+        
+    }
