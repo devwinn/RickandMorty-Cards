@@ -72,6 +72,8 @@ function createCard() {
         default:
             source = "../images/portal.png";
             alt = "portal";
+            cdimension = "unknown"
+            cname = "Johane Doe"
     };
 
     console.log(source + " " + alt);

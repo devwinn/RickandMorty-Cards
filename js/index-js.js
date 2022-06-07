@@ -3,7 +3,7 @@
 
 const portal = document.getElementById("portal");
 const button1 = document.getElementById("toSite");
-const button2 = document.getElementById("toFart");
+const button2 = document.getElementById("toAcknowledge");
 
 
 

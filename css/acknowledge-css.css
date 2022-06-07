@@ -1,0 +1,37 @@
+body {
+    border: 5px solid rgb(69, 193, 242);
+    height: 95vh;
+    border-radius: 5%;
+    margin: 2%;
+    box-shadow: 0px 8px 8px 8px rgba(71, 206, 240, 0.887);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#vid {
+    margin-top: 5vh; 
+}
+#toSite{
+    display: none;
+    height: fit-content;
+    margin-top: 2vh;
+    padding: 30px;
+}
+form {
+    font-family: 'Amatic SC', cursive; 
+    font-size: x-large;
+    margin-top: 5vh;
+    color: aliceblue;
+}
+#formContainer {
+    display: none;
+    align-items: center; 
+    gap: 2vh;
+}
+
+button {
+    font-family: 'Amatic SC', cursive; 
+    font-size: x-large; 
+    margin-top: 4vh;
+}
