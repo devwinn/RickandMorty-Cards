@@ -85,7 +85,7 @@ function createCard() {
                     <th style="">${cname}</th>
                 </tr>
                 <tr>
-                    <td style="text-align: center;">${cdimension}</td>
+                    <td style="text-align: center;">DIMENSION: ${cdimension}</td>
                 </tr>
             </table>
     `;
